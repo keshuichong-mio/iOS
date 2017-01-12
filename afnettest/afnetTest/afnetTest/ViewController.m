@@ -54,7 +54,7 @@
 }
 
 - (void)testAfnetworkUpload {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"txt"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"番外" ofType:@"txt"];
     NSFileManager *fileM = [NSFileManager defaultManager];
     if ([fileM fileExistsAtPath:filePath]) {
         AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];

@@ -22,6 +22,7 @@
 		028ACDDB1E14A31900AE2C32 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 028ACDD41E14A31900AE2C32 /* AFURLResponseSerialization.m */; };
 		028ACDDC1E14A31900AE2C32 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 028ACDD61E14A31900AE2C32 /* AFURLSessionManager.m */; };
 		028ACDDE1E15015000AE2C32 /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 028ACDDD1E15015000AE2C32 /* 1.txt */; };
+		028D93471E1F91E1009FD7FC /* 番外.txt in Resources */ = {isa = PBXBuildFile; fileRef = 028D93461E1F91E1009FD7FC /* 番外.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		028ACDD51E14A31900AE2C32 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		028ACDD61E14A31900AE2C32 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		028ACDDD1E15015000AE2C32 /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		028D93461E1F91E1009FD7FC /* 番外.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "番外.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		028ACD951E14A2FF00AE2C32 /* afnetTest */ = {
 			isa = PBXGroup;
 			children = (
+				028D93461E1F91E1009FD7FC /* 番外.txt */,
 				028ACDC91E14A31900AE2C32 /* AFNetworking */,
 				028ACD991E14A2FF00AE2C32 /* AppDelegate.h */,
 				028ACD9A1E14A2FF00AE2C32 /* AppDelegate.m */,
@@ -290,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028D93471E1F91E1009FD7FC /* 番外.txt in Resources */,
 				028ACDA61E14A2FF00AE2C32 /* LaunchScreen.storyboard in Resources */,
 				028ACDDE1E15015000AE2C32 /* 1.txt in Resources */,
 				028ACDA31E14A2FF00AE2C32 /* Assets.xcassets in Resources */,
@@ -562,6 +566,7 @@
 				028ACDC21E14A2FF00AE2C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		028ACDC31E14A2FF00AE2C32 /* Build configuration list for PBXNativeTarget "afnetTestTests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +575,7 @@
 				028ACDC51E14A2FF00AE2C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		028ACDC61E14A2FF00AE2C32 /* Build configuration list for PBXNativeTarget "afnetTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +584,7 @@
 				028ACDC81E14A2FF00AE2C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

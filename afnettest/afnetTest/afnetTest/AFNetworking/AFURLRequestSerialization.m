@@ -789,6 +789,7 @@ NSTimeInterval const kAFUploadStream3GSuggestedDelay = 0.2;
     [self appendPartWithHeaders:mutableHeaders body:data];
 }
 
+#pragma mark - formdata数据 拼接 3
 - (void)appendPartWithFormData:(NSData *)data
                           name:(NSString *)name
 {
@@ -822,6 +823,7 @@ NSTimeInterval const kAFUploadStream3GSuggestedDelay = 0.2;
     self.bodyStream.delay = delay;
 }
 
+#pragma mark - 拼接formdata成httpbody格式
 - (NSMutableURLRequest *)requestByFinalizingMultipartFormData {
     if ([self.bodyStream isEmpty]) {
         return self.request;
