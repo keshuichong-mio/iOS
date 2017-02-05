@@ -77,7 +77,7 @@ NSString * AFPercentEscapedStringFromString(NSString *string) {
 	return escaped;
 }
 
-#pragma mark -
+#pragma mark -存储字典key和value的对象(编码value值)
 
 @interface AFQueryStringPair : NSObject
 @property (readwrite, nonatomic, strong) id field;
@@ -112,7 +112,7 @@ NSString * AFPercentEscapedStringFromString(NSString *string) {
 
 @end
 
-#pragma mark -
+#pragma mark -从字典提取出AFQueryStringPair
 
 FOUNDATION_EXPORT NSArray * AFQueryStringPairsFromDictionary(NSDictionary *dictionary);
 FOUNDATION_EXPORT NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value);
@@ -161,7 +161,7 @@ NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value) {
     return mutableQueryStringComponents;
 }
 
-#pragma mark -
+#pragma mark -上传总类(处理请求中body部分和上传文件时写文件入body)
 
 @interface AFStreamingMultipartFormData : NSObject <AFMultipartFormData>
 - (instancetype)initWithURLRequest:(NSMutableURLRequest *)urlRequest
@@ -170,7 +170,7 @@ NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value) {
 - (NSMutableURLRequest *)requestByFinalizingMultipartFormData;
 @end
 
-#pragma mark -
+#pragma mark - allowsCellularAccess，cachePolicy的字典
 //allowsCellularAccess，cachePolicy的字典
 static NSArray * AFHTTPRequestSerializerObservedKeyPaths() {
     static NSArray *_AFHTTPRequestSerializerObservedKeyPaths = nil;
@@ -184,6 +184,7 @@ static NSArray * AFHTTPRequestSerializerObservedKeyPaths() {
 
 static void *AFHTTPRequestSerializerObserverContext = &AFHTTPRequestSerializerObserverContext;
 
+#pragma mark - 序列化request的总类
 @interface AFHTTPRequestSerializer ()
 @property (readwrite, nonatomic, strong) NSMutableSet *mutableObservedChangedKeyPaths;
 @property (readwrite, nonatomic, strong) NSMutableDictionary *mutableHTTPRequestHeaders;  //请求header部分的字典
@@ -598,7 +599,7 @@ forHTTPHeaderField:(NSString *)field
 
 @end
 
-#pragma mark -
+#pragma mark -boundary(body的块)
 
 static NSString * AFCreateMultipartFormBoundary() {
     return [NSString stringWithFormat:@"Boundary+%08X%08X", arc4random(), arc4random()];
@@ -631,6 +632,7 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
 NSUInteger const kAFUploadStream3GSuggestedPacketSize = 1024 * 16;
 NSTimeInterval const kAFUploadStream3GSuggestedDelay = 0.2;
 
+#pragma mark  - 网络请求body块的封装
 @interface AFHTTPBodyPart : NSObject
 @property (nonatomic, assign) NSStringEncoding stringEncoding;
 @property (nonatomic, strong) NSDictionary *headers;
@@ -649,6 +651,7 @@ NSTimeInterval const kAFUploadStream3GSuggestedDelay = 0.2;
         maxLength:(NSUInteger)length;
 @end
 
+#pragma mark - 总处理请求里的body的类
 @interface AFMultipartBodyStream : NSInputStream <NSStreamDelegate>
 @property (nonatomic, assign) NSUInteger numberOfBytesInPacket;
 @property (nonatomic, assign) NSTimeInterval delay;
@@ -823,7 +826,7 @@ NSTimeInterval const kAFUploadStream3GSuggestedDelay = 0.2;
     self.bodyStream.delay = delay;
 }
 
-#pragma mark - 拼接formdata成httpbody格式
+#pragma mark - 拼接formdata成httpbody格式,完后，程序上传，循环调用AFMultipartBodyStream的read:(uint8_t *)buffer maxLength:方法
 - (NSMutableURLRequest *)requestByFinalizingMultipartFormData {
     if ([self.bodyStream isEmpty]) {
         return self.request;
@@ -1161,6 +1164,15 @@ typedef enum {
     return totalNumberOfBytesRead;
 }
 
+
+/**
+ if(data.length<length) {
+ 
+ 
+ }else {
+ }
+ 
+ */
 - (NSInteger)readData:(NSData *)data
            intoBuffer:(uint8_t *)buffer
             maxLength:(NSUInteger)length

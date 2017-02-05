@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/ViewController.m"
-            timestampString = "504671596.064693"
+            timestampString = "506416726.358154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "-testAfnetworkVisit"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/ViewController.m"
-            timestampString = "504671596.064693"
+            timestampString = "506416726.358154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-testAfnetworkVisit"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/ViewController.m"
-            timestampString = "504671596.064693"
+            timestampString = "506416726.358154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-testAfnetworkVisit"
             landmarkType = "7">
             <Locations>
@@ -57,12 +57,12 @@
                   symbolName = "__36-[ViewController testAfnetworkVisit]_block_invoke"
                   moduleName = "afnetTest"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/ViewController.m"
-                  timestampString = "505795658.403851"
+                  urlString = "file:///Users/lic/Desktop/MyTest/iOS/iOS/afnettest/afnetTest/afnetTest/ViewController.m"
+                  timestampString = "506420822.273044"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
                   offsetFromSymbolStart = "110">
                </Location>
                <Location
@@ -72,12 +72,12 @@
                   symbolName = "__36-[ViewController testAfnetworkVisit]_block_invoke_2"
                   moduleName = "afnetTest"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/ViewController.m"
-                  timestampString = "505795658.407074"
+                  urlString = "file:///Users/lic/Desktop/MyTest/iOS/iOS/afnettest/afnetTest/afnetTest/ViewController.m"
+                  timestampString = "506420822.276193"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
                   offsetFromSymbolStart = "82">
                </Location>
             </Locations>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/ViewController.m"
-            timestampString = "504693973.77929"
+            timestampString = "506420755.34779"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "-testAfnetworkUpload"
             landmarkType = "7">
          </BreakpointContent>
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/ViewController.m"
-            timestampString = "504693981.78414"
+            timestampString = "506420755.34779"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "-testAfnetworkUpload"
             landmarkType = "7">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/ViewController.m"
-            timestampString = "504693983.427204"
+            timestampString = "506420755.34779"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "-testAfnetworkUpload"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/ViewController.m"
-            timestampString = "505384574.858784"
+            timestampString = "506420755.34779"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "-testAfnetworkUpload"
             landmarkType = "7">
          </BreakpointContent>
@@ -150,31 +150,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
-            timestampString = "505384596.586702"
+            timestampString = "506067727.12536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1164"
-            endingLineNumber = "1164"
-            landmarkName = "-readData:intoBuffer:maxLength:"
-            landmarkType = "7">
+            startingLineNumber = "1172"
+            endingLineNumber = "1172"
+            landmarkName = "@implementation AFHTTPBodyPart"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
-            timestampString = "505384660.172293"
+            timestampString = "506053334.030772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "423"
-            endingLineNumber = "423"
+            startingLineNumber = "424"
+            endingLineNumber = "424"
             landmarkName = "-multipartFormRequestWithMethod:URLString:parameters:constructingBodyWithBlock:error:"
             landmarkType = "7">
          </BreakpointContent>
@@ -182,15 +182,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
-            timestampString = "505384666.513555"
+            timestampString = "506053334.030772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "414"
-            endingLineNumber = "414"
+            startingLineNumber = "415"
+            endingLineNumber = "415"
             landmarkName = "-multipartFormRequestWithMethod:URLString:parameters:constructingBodyWithBlock:error:"
             landmarkType = "7">
          </BreakpointContent>
@@ -198,15 +198,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
-            timestampString = "505384994.818354"
+            timestampString = "506053334.030772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1129"
-            endingLineNumber = "1129"
+            startingLineNumber = "1132"
+            endingLineNumber = "1132"
             landmarkName = "-read:maxLength:"
             landmarkType = "7">
          </BreakpointContent>
@@ -214,15 +214,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
-            timestampString = "505794378.147925"
+            timestampString = "506053334.030772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1105"
-            endingLineNumber = "1105"
+            startingLineNumber = "1108"
+            endingLineNumber = "1108"
             landmarkName = "-hasBytesAvailable"
             landmarkType = "7">
          </BreakpointContent>
@@ -230,15 +230,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
-            timestampString = "505794380.945585"
+            timestampString = "506053334.030772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1088"
-            endingLineNumber = "1088"
+            startingLineNumber = "1091"
+            endingLineNumber = "1091"
             landmarkName = "-contentLength"
             landmarkType = "7">
          </BreakpointContent>
@@ -246,17 +246,287 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
-            timestampString = "505794382.529652"
+            timestampString = "506053334.030772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1078"
-            endingLineNumber = "1078"
+            startingLineNumber = "1081"
+            endingLineNumber = "1081"
             landmarkName = "-stringForHeaders"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "506053334.030772"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "920"
+            endingLineNumber = "920"
+            landmarkName = "-read:maxLength:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFMultipartBodyStream read:maxLength:]"
+                  moduleName = "afnetTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "506223868.384454"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "920"
+                  endingLineNumber = "920"
+                  offsetFromSymbolStart = "571">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFMultipartBodyStream read:maxLength:]"
+                  moduleName = "afnetTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "506223868.390166"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "920"
+                  endingLineNumber = "920"
+                  offsetFromSymbolStart = "658">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "506067727.12536"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1192"
+            endingLineNumber = "1192"
+            landmarkName = "-transitionToNextPhase"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "506053366.358743"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "905"
+            endingLineNumber = "905"
+            landmarkName = "-read:maxLength:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "506053422.520842"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1065"
+            endingLineNumber = "1065"
+            landmarkName = "-inputStream"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "506053430.501622"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1047"
+            endingLineNumber = "1047"
+            landmarkName = "-init"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "506053516.103613"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "812"
+            endingLineNumber = "812"
+            landmarkName = "-appendPartWithHeaders:body:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "506053939.965864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "878"
+            endingLineNumber = "878"
+            landmarkName = "-initWithStringEncoding:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFHTTPSessionManager.m"
+            timestampString = "506054067.739101"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "-POST:parameters:constructingBodyWithBlock:progress:success:failure:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]"
+                  moduleName = "afnetTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFHTTPSessionManager.m"
+                  timestampString = "506223868.419339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "1034">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__Block_byref_object_copy_"
+                  moduleName = "afnetTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFHTTPSessionManager.m"
+                  timestampString = "506223868.423023"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__Block_byref_object_dispose_"
+                  moduleName = "afnetTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFHTTPSessionManager.m"
+                  timestampString = "506223868.426061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__91-[AFHTTPSessionManager POST:parameters:constructingBodyWithBlock:progress:success:failure:]_block_invoke.106"
+                  moduleName = "afnetTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFHTTPSessionManager.m"
+                  timestampString = "506223868.429025"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "215"
+                  endingLineNumber = "215"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
+            timestampString = "506068430.469601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1180"
+            endingLineNumber = "1180"
+            landmarkName = "-readData:intoBuffer:maxLength:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFHTTPBodyPart readData:intoBuffer:maxLength:]"
+                  moduleName = "afnetTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "506223868.435699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1180"
+                  endingLineNumber = "1180"
+                  offsetFromSymbolStart = "82">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AFHTTPBodyPart readData:intoBuffer:maxLength:]"
+                  moduleName = "afnetTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFURLRequestSerialization.m"
+                  timestampString = "506223868.438559"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1180"
+                  endingLineNumber = "1180"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -265,46 +535,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "afnetTest/AFNetworking/AFURLRequestSerialization.m"
-            timestampString = "505795651.594051"
+            filePath = "afnetTest/AFNetworking/AFURLSessionManager.m"
+            timestampString = "506221230.83346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "917"
-            endingLineNumber = "917"
-            landmarkName = "-read:maxLength:"
+            startingLineNumber = "592"
+            endingLineNumber = "592"
+            landmarkName = "-addDelegateForUploadTask:progress:completionHandler:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AFMultipartBodyStream read:maxLength:]"
-                  moduleName = "afnetTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFURLRequestSerialization.m"
-                  timestampString = "505795658.466514"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "917"
-                  endingLineNumber = "917"
-                  offsetFromSymbolStart = "571">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AFMultipartBodyStream read:maxLength:]"
-                  moduleName = "afnetTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lic/Desktop/%E6%88%91%E7%9A%84%E7%BB%83%E4%B9%A0/iOS/iOS/afnettest/afnetTest/afnetTest/AFNetworking/AFURLRequestSerialization.m"
-                  timestampString = "505795658.469258"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "917"
-                  endingLineNumber = "917"
-                  offsetFromSymbolStart = "658">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -19,6 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+
+
 #import "AFNetworkReachabilityManager.h"
 #if !TARGET_OS_WATCH
 
@@ -33,6 +35,7 @@ NSString * const AFNetworkingReachabilityNotificationStatusItem = @"AFNetworking
 
 typedef void (^AFNetworkReachabilityStatusBlock)(AFNetworkReachabilityStatus status);
 
+//根据网络状态返回对应信息
 NSString * AFStringFromNetworkReachabilityStatus(AFNetworkReachabilityStatus status) {
     switch (status) {
         case AFNetworkReachabilityStatusNotReachable:
@@ -47,6 +50,7 @@ NSString * AFStringFromNetworkReachabilityStatus(AFNetworkReachabilityStatus sta
     }
 }
 
+//根据SCNetworkReachabilityFlags返回网络状态
 static AFNetworkReachabilityStatus AFNetworkReachabilityStatusForFlags(SCNetworkReachabilityFlags flags) {
     BOOL isReachable = ((flags & kSCNetworkReachabilityFlagsReachable) != 0);
     BOOL needsConnection = ((flags & kSCNetworkReachabilityFlagsConnectionRequired) != 0);
@@ -78,6 +82,7 @@ static AFNetworkReachabilityStatus AFNetworkReachabilityStatusForFlags(SCNetwork
  * a queued notification (for an earlier status condition) is processed after
  * the later update, resulting in the listener being left in the wrong state.
  */
+//网络状态变化，block回调，发送通知
 static void AFPostReachabilityStatusChange(SCNetworkReachabilityFlags flags, AFNetworkReachabilityStatusBlock block) {
     AFNetworkReachabilityStatus status = AFNetworkReachabilityStatusForFlags(flags);
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -90,6 +95,7 @@ static void AFPostReachabilityStatusChange(SCNetworkReachabilityFlags flags, AFN
     });
 }
 
+//在AFPostReachabilityStatusChange上封装一层
 static void AFNetworkReachabilityCallback(SCNetworkReachabilityRef __unused target, SCNetworkReachabilityFlags flags, void *info) {
     AFPostReachabilityStatusChange(flags, (__bridge AFNetworkReachabilityStatusBlock)info);
 }
@@ -198,7 +204,7 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
 }
 
 #pragma mark -
-
+//开始检测网络，看来就是通过SCNetworkReachabilityRef这个类来设置参数检测网络
 - (void)startMonitoring {
     [self stopMonitoring];
 
@@ -206,6 +212,7 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
         return;
     }
 
+    //偷懒啊，在这里写个block来简化判断block
     __weak __typeof(self)weakSelf = self;
     AFNetworkReachabilityStatusBlock callback = ^(AFNetworkReachabilityStatus status) {
         __strong __typeof(weakSelf)strongSelf = weakSelf;
@@ -250,7 +257,7 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
 }
 
 #pragma mark - NSKeyValueObserving
-
+//没找到observeValueForKeyPath，但是一般来说有这个才会调下面这个方法
 + (NSSet *)keyPathsForValuesAffectingValueForKey:(NSString *)key {
     if ([key isEqualToString:@"reachable"] || [key isEqualToString:@"reachableViaWWAN"] || [key isEqualToString:@"reachableViaWiFi"]) {
         return [NSSet setWithObject:@"networkReachabilityStatus"];

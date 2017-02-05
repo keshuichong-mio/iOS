@@ -40,6 +40,7 @@ _out:
 }
 #endif
 
+//判断非对称密钥是否一样
 static BOOL AFSecKeyIsEqualToKey(SecKeyRef key1, SecKeyRef key2) {
 #if TARGET_OS_IOS || TARGET_OS_WATCH || TARGET_OS_TV
     return [(__bridge id)key1 isEqual:(__bridge id)key2];
@@ -48,11 +49,12 @@ static BOOL AFSecKeyIsEqualToKey(SecKeyRef key1, SecKeyRef key2) {
 #endif
 }
 
+//从证书中取出公钥
 static id AFPublicKeyForCertificate(NSData *certificate) {
     id allowedPublicKey = nil;
     SecCertificateRef allowedCertificate;
     SecPolicyRef policy = nil;
-    SecTrustRef allowedTrust = nil;
+    SecTrustRef allowedTrust = nil;     //信任管理
     SecTrustResultType result;
 
     allowedCertificate = SecCertificateCreateWithData(NULL, (__bridge CFDataRef)certificate);
@@ -80,6 +82,7 @@ _out:
     return allowedPublicKey;
 }
 
+//判断是否验证通过
 static BOOL AFServerTrustIsValid(SecTrustRef serverTrust) {
     BOOL isValid = NO;
     SecTrustResultType result;
@@ -145,7 +148,7 @@ static NSArray * AFPublicKeyTrustChainForServerTrust(SecTrustRef serverTrust) {
 @end
 
 @implementation AFSecurityPolicy
-
+//获取所有cer证书
 + (NSSet *)certificatesInBundle:(NSBundle *)bundle {
     NSArray *paths = [bundle pathsForResourcesOfType:@"cer" inDirectory:@"."];
 
